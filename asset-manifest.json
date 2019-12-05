@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/zoo-management/static/css/main.b100e6da.chunk.css",
+    "main.js": "/zoo-management/static/js/main.72d3ff2d.chunk.js",
+    "main.js.map": "/zoo-management/static/js/main.72d3ff2d.chunk.js.map",
+    "runtime-main.js": "/zoo-management/static/js/runtime-main.882e39b7.js",
+    "runtime-main.js.map": "/zoo-management/static/js/runtime-main.882e39b7.js.map",
+    "static/css/2.64a99b10.chunk.css": "/zoo-management/static/css/2.64a99b10.chunk.css",
+    "static/js/2.6cce3797.chunk.js": "/zoo-management/static/js/2.6cce3797.chunk.js",
+    "static/js/2.6cce3797.chunk.js.map": "/zoo-management/static/js/2.6cce3797.chunk.js.map",
+    "index.html": "/zoo-management/index.html",
+    "precache-manifest.deb349d0954f9a9d2b9cb22958f7b833.js": "/zoo-management/precache-manifest.deb349d0954f9a9d2b9cb22958f7b833.js",
+    "service-worker.js": "/zoo-management/service-worker.js",
+    "static/css/2.64a99b10.chunk.css.map": "/zoo-management/static/css/2.64a99b10.chunk.css.map",
+    "static/css/main.b100e6da.chunk.css.map": "/zoo-management/static/css/main.b100e6da.chunk.css.map",
+    "static/media/zoo5.jpg": "/zoo-management/static/media/zoo5.40959fb5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.882e39b7.js",
+    "static/css/2.64a99b10.chunk.css",
+    "static/js/2.6cce3797.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.72d3ff2d.chunk.js"
+  ]
+}
