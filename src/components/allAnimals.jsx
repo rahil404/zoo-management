@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./custom.css";
 
 class AllAnimals extends Component {
     constructor(props) {
@@ -16,10 +17,10 @@ class AllAnimals extends Component {
   render() {
     return (
       <div>
-        <div className="row border p-5 bg-light rounded" style={{ width:"80%", margin:"auto", marginTop:50 }}>
-          <div className="col-md-7">
+        <div className="row border bg-light rounded all-animals-container">
+          <div className="col-md-7 all-animals-table-div">
           <h3 style={{ textAlign:"center", marginBottom: 15 }}>Animals</h3>
-            <table class="table">
+            <table className="table all-animals-table">
               <thead>
                 <tr>
                   <th scope="col">Animal ID</th>
@@ -55,7 +56,7 @@ class AllAnimals extends Component {
                 
             </table>
           </div>
-          <div className="col-md-5">
+          <div className="col-md-5 all-animals-table-div">
           <h3 style={{ textAlign:"center", marginBottom: 15 }}>Groups</h3>
             <table class="table">
               <thead>

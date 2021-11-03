@@ -1,4 +1,5 @@
 import React from "react";
+import "./custom.css";
 
 class Form extends React.Component {
     constructor(props) {
@@ -26,14 +27,14 @@ class Form extends React.Component {
   render() {
     return (
       <React.Fragment>
-      <div className="row border p-5 bg-light rounded" style={{ width:"68%", margin:"auto", marginTop:100 }}>
+      <div className="row border bg-light rounded form-container">
         
-        <div className="col-md-6">
+        <div className="col-md-6 home-page-forms" style={{marginBottom: "20px"}}>
           <form onSubmit={(event) => {
             event.preventDefault();
             this.props.addAnimal(this.state.animalname, this.state.selectedgroup);
           }}
-           className="rounded border border-secondary"  style={{border:"1px solid black"}}>
+           className="rounded border border-secondary" style={{border:"1px solid black"}}>
             <h3 className="bg-secondary text-white rounded text-center p-2">New Animal</h3>
             <div className="p-3">
               <div className="form-group">
@@ -51,12 +52,12 @@ class Form extends React.Component {
               </select>
             </div>
             <button 
-            type='submit' className="btn btn-info btn-md">Add Animal</button>
+            type='submit' className="btn btn-info btn-md home-page-btn">Add Animal</button>
             </div>
           </form>
           
         </div>
-        <div className="col-md-6">
+        <div className="col-md-6 home-page-forms">
           <form onSubmit={(event) => {
             event.preventDefault();
             this.props.addGroup(this.state.groupname);
@@ -67,7 +68,7 @@ class Form extends React.Component {
               <label for="group-name">Animal Group</label>
               <input required name="groupname" value={this.state.groupname} onChange={this.changeHandler} className="form-control" id="name" type="text" placeholder="Enter group name" />
             </div>
-            <button style={{marginBottom:40}} type="submit" className="btn btn-info btn-md">Add Group</button>
+            <button type="submit" className="btn btn-info btn-md home-page-btn">Add Group</button>
             </div>
             
           </form> 
