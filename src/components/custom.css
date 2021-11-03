@@ -1,0 +1,70 @@
+.form-container {
+  width: 68% !important; 
+  margin: auto !important; 
+  margin-top:60px !important;
+  padding: 40px !important;
+}
+
+.home-page-forms {
+  width: 50% !important;
+}
+
+.all-animals-container {
+  width:80% !important;
+  margin:auto !important;
+  margin-top:12% !important;
+  padding: 2%;
+}
+
+.all-animals-table-div {
+  overflow: auto;
+  margin-top: 30px;
+}
+
+/* MEDIA QUERIES */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .form-container {
+    width: 90% !important; 
+    margin: auto !important; 
+    margin-top:15% !important;
+    padding: 5% 2% !important;
+  }
+  .home-page-forms {
+    width: 100% !important;
+  }
+  .all-animals-container {
+    width:90% !important;
+    margin:auto !important;
+    margin-top:60px !important;
+  }
+  .home-page-btn {
+    width: 100%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .form-container {
+    width: 60% !important; 
+    margin: auto !important; 
+    margin-top:150px !important;
+    padding: 40px !important;
+  }
+}
