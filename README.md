@@ -1,3 +1,3 @@
 ## Zoo-Management
 
-This is a ReactJS application for the management of animals of a zoo. A user can add and delete animalgroups (e.g. Penguin) and specific animals belonging to a group (e.g Paul (Penguin group)). The user canview the last date of medical checkup of an animal. The user can update the medical checkup date with thecurrent date. The app is deployed at https://rahil404.github.io/zoo-management.
+This is a ReactJS application for the management of animals of a zoo. A user can add and delete animal groups (e.g. Penguin) and specific animals belonging to a group (e.g Paul (Penguin group)). The user can view the last date of medical checkup of an animal. The user can update the medical checkup date with the current date. The app is deployed at https://rahil404.github.io/zoo-management.
