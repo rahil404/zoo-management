@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7560060db9e8ea2ab85b2d71eb50e616",
+    "revision": "f84b3cb89391293763064adeb1f70ed0",
     "url": "/zoo-management/index.html"
   },
   {
-    "revision": "ce80726a62f755e6ee47",
+    "revision": "c728d19c454f13555a2d",
     "url": "/zoo-management/static/css/2.64a99b10.chunk.css"
   },
   {
-    "revision": "fa7efdae7a9a7e410422",
-    "url": "/zoo-management/static/css/main.b100e6da.chunk.css"
+    "revision": "ba2bfe2bfd51dcef4425",
+    "url": "/zoo-management/static/css/main.7f9e9b82.chunk.css"
   },
   {
-    "revision": "ce80726a62f755e6ee47",
-    "url": "/zoo-management/static/js/2.5bdd9e21.chunk.js"
+    "revision": "c728d19c454f13555a2d",
+    "url": "/zoo-management/static/js/2.819130ce.chunk.js"
   },
   {
-    "revision": "fa7efdae7a9a7e410422",
-    "url": "/zoo-management/static/js/main.81f7acb1.chunk.js"
+    "revision": "ba2bfe2bfd51dcef4425",
+    "url": "/zoo-management/static/js/main.769c6991.chunk.js"
   },
   {
     "revision": "4c2d327d2798c73d71b7",
